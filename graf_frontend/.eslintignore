@@ -1,0 +1,5 @@
+node_modules/*
+app/public/*
+shared/testUtilities/*
+shared/testifyHelpers/createDevToolsWindow.js
+es5Shim.js

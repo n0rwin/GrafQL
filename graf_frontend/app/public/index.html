@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+        <title>Graf QL</title>
+
+        <link rel="stylesheet" href="mdi/css/materialdesignicons.min.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <style>
+            html, body, #app {
+                height: 100%;
+            }
+
+           body {
+             font-family: 'Roboto','Helvetica','Arial',sans-serif;
+             background: #fafafa;
+             margin: 0;
+           }
+
+           .padding-space-top {
+             padding-top: 24px;
+           }
+
+        </style>
+        <script type="text/javascript">
+            if (!String.prototype.startsWith) {
+                String.prototype.startsWith = function(searchString, position) {
+                    position = position || 0;
+                    return this.indexOf(searchString, position) === position;
+              };
+            }
+
+            if (typeof Object.assign != 'function') {
+              Object.assign = function(target, varArgs) { // .length of function is 2
+                'use strict';
+                if (target == null) { // TypeError if undefined or null
+                  throw new TypeError('Cannot convert undefined or null to object');
+                }
+
+                var to = Object(target);
+
+                for (var index = 1; index < arguments.length; index++) {
+                  var nextSource = arguments[index];
+
+                  if (nextSource != null) { // Skip over if undefined or null
+                    for (var nextKey in nextSource) {
+                      // Avoid bugs when hasOwnProperty is shadowed
+                      if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+                        to[nextKey] = nextSource[nextKey];
+                      }
+                    }
+                  }
+                }
+                return to;
+              };
+            }
+        </script>
+        <script type="text/javascript">  var appInsights=window.appInsights||function(config){    function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t    }({        instrumentationKey:"17cfd103-e730-48ae-a80d-d0a615c31758"    });           window.appInsights=appInsights;    appInsights.trackPageView();</script>
+    </head>
+    <body>
+        <div id='app'>
+        </div>
+        <script src="build/bundle.js"></script>
+
+    <!--replace:cordova-->
+    </body>
+</html>

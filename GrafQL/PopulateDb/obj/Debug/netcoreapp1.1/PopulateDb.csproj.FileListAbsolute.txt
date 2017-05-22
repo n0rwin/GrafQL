@@ -1,0 +1,11 @@
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\PopulateDb.deps.json
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\PopulateDb.runtimeconfig.json
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\PopulateDb.runtimeconfig.dev.json
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\PopulateDb.dll
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\GrafQL.dll
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\GrafQL.pdb
+D:\projects\GrafQL\GrafQL\PopulateDb\obj\Debug\netcoreapp1.1\PopulateDb.csprojResolveAssemblyReference.cache
+D:\projects\GrafQL\GrafQL\PopulateDb\obj\Debug\netcoreapp1.1\PopulateDb.AssemblyInfo.cs
+D:\projects\GrafQL\GrafQL\PopulateDb\bin\Debug\netcoreapp1.1\PopulateDb.pdb
+D:\projects\GrafQL\GrafQL\PopulateDb\obj\Debug\netcoreapp1.1\PopulateDb.dll
+D:\projects\GrafQL\GrafQL\PopulateDb\obj\Debug\netcoreapp1.1\PopulateDb.pdb
